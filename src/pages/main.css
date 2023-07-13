@@ -89,3 +89,32 @@
 .btn button:hover {
   background-color: #009999;
 }
+
+
+
+.password {
+  justify-content: flex-end;
+  align-items: center;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 20px;
+  left: 45%;
+  transform: translateX(-50%);
+  background-color: gray;
+  height: 400px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.password p {
+  text-align: center;
+  display: flex;
+  color: white;
+}
+.password span{
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
