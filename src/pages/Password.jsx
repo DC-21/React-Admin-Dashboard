@@ -38,7 +38,7 @@ const Password = () => {
 
   return (
     <div className="username">
-      <div className="password">
+      <div className="name">
         <p>Enter Previous Password:</p>
         <input
           className="in"
@@ -47,8 +47,17 @@ const Password = () => {
           onChange={handlePasswordChange}
         />
       </div>
-      <div className="new-password">
+      <div className="name">
         <p>Enter New Password:</p>
+        <input
+          className="in"
+          type="password"
+          value={newPassword}
+          onChange={handleNewPasswordChange}
+        />
+      </div>
+      <div className="name">
+        <p>Confirm New Password:</p>
         <input
           className="in"
           type="password"
