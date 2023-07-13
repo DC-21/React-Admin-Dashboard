@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+.username {
+  justify-content: flex-end;
+  align-items: center;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 55px;
+  left: 45%;
+  transform: translateX(-50%);
+  background-color: gray;
+  height: 300px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.username p {
+  text-align: center;
+  display: flex;
+  color: white;
+}
+.username span{
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+.name {
+  display: flex;
+  width: 400px;
+  padding-top: 20px;
+}
+
+.name p {
+  flex: 1;
+}
+
+.name span {
+  flex: 1;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+
+.new {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  padding-top: 20px;
+}
+.in {
+  padding: 5px;
+}
+
+.new p {
+  flex: 1;
+}
+
+.fm {
+  flex: 1;
+  border-radius: 5px;
+}
+.btn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.btn button {
+  background-color: #00b3b3;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+}
+.btn p{
+    margin-top: 15px;
+}
+
+.btn button:hover {
+  background-color: #009999;
+}

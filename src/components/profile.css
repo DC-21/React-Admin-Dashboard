@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.profile{
+    padding: 20px;
+}
+.links p:hover {
+    background-color: #0046eb;
+    height: 25px;
+    border-radius: 4px;
+    width: 80%;
+}
+.side{
+    background-color: #5681e6;
+}
