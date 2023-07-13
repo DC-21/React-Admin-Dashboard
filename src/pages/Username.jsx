@@ -29,6 +29,7 @@ const Username = () => {
             <input
               className="in"
               type="text"
+              placeholder="new username"
               value={newUsername}
               onChange={handleChange}
             />

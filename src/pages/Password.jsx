@@ -38,6 +38,7 @@ const Password = () => {
 
   return (
     <div className="username">
+      <span>Change Password</span>
       <div className="name">
         <p>Enter Previous Password:</p>
         <input
