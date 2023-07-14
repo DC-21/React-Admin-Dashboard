@@ -36,7 +36,7 @@ const Profile = () => {
                 paddingTop: '14px'
               }}
             >
-              Password
+              Change Password
             </p>
           </Link>
           <Link to="/team" style={{ cursor: 'pointer' }}>
@@ -48,7 +48,7 @@ const Profile = () => {
                 paddingTop: '14px'
               }}
             >
-              Team
+              Permissions
             </p>
           </Link>
           <Link to="/email" style={{ cursor: 'pointer' }}>
@@ -60,7 +60,7 @@ const Profile = () => {
                 paddingTop: '14px'
               }}
             >
-              Email
+              Account Status
             </p>
           </Link>
           <Link to="/plan" style={{ cursor: 'pointer' }}>
@@ -72,7 +72,7 @@ const Profile = () => {
                 paddingTop: '14px'
               }}
             >
-              Plan
+              Activity Log
             </p>
           </Link>
           <Link to="/billing" style={{ cursor: 'pointer' }}>
