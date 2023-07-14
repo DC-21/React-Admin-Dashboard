@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Quicksand', sans-serif;
 }
+.logs{
+    width: 100%;
+}
 .row1{
     display: flex;
     width: 600px;
@@ -13,9 +16,8 @@
     font-size: large;
     color: white;
     padding-bottom: 8px;
-    text-align: center;
-    flex: 1;
-    width: 150px;
+    text-align: left;
+    width: 200px;
 }
 .row2{
     display: flex;
@@ -26,6 +28,6 @@
 }
 .row2 p{
     width: 150px;
-    text-align: center;
+    text-align: left;
     color: antiquewhite;
 }
