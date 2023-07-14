@@ -27,6 +27,36 @@ const Logs = () => {
         <p>2:10PM 14-07-23</p>
         <p>Approved all pending user requests</p>
       </div>
+      <div className="row2">
+        <p>Rabbi Kindalo</p>
+        <p>12:01AM 14-07-23</p>
+        <p>2:10PM 14-07-23</p>
+        <p>Created new product listings</p>
+      </div>
+      <div className="row2">
+        <p>Tamani Phiri</p>
+        <p>12:01AM 14-07-23</p>
+        <p>2:10PM 14-07-23</p>
+        <p>Approved all pending user requests</p>
+      </div>
+      <div className="row2">
+        <p>Rabbi Kindalo</p>
+        <p>12:01AM 14-07-23</p>
+        <p>2:10PM 14-07-23</p>
+        <p>Created new product listings</p>
+      </div>
+      <div className="row2">
+        <p>Tamani Phiri</p>
+        <p>12:01AM 14-07-23</p>
+        <p>2:10PM 14-07-23</p>
+        <p>Approved all pending user requests</p>
+      </div>
+      <div className="row2">
+        <p>Rabbi Kindalo</p>
+        <p>12:01AM 14-07-23</p>
+        <p>2:10PM 14-07-23</p>
+        <p>Created new product listings</p>
+      </div>
     </div>
   );
 };

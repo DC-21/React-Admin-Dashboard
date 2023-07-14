@@ -1,4 +1,4 @@
-import Logs from "../Slide/Logs";
+import Slider from '../Slide/Slider';
 import "./main.css";
 
 const Activity = () => {
@@ -9,7 +9,7 @@ const Activity = () => {
         <span>Admin Activity Logs</span>
       <div className="user">
         <div className="activ">
-          <Logs/>
+          <Slider/>
         </div>
       </div>
     </div>
