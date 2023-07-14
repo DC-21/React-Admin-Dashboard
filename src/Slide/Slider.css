@@ -5,5 +5,6 @@
   }
   .scrollable-screen {
     height: 300px;
+    width: 650px;
     overflow-y: scroll;
   }
