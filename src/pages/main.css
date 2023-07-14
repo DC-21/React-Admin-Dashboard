@@ -135,3 +135,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.activ {
+  display: flex;
+  width: 650px;
+  padding-top: 20px;
+}

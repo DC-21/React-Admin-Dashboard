@@ -8,7 +8,7 @@ const Activity = () => {
     <div className="activity">
         <span>Admin Activity Logs</span>
       <div className="user">
-        <div className="name">
+        <div className="activ">
           <Logs/>
         </div>
       </div>

@@ -5,10 +5,14 @@
 }
 .row1{
     display: flex;
-    width: 500px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
 }
 .row1 p{
     font-size: large;
     color: white;
     padding-bottom: 8px;
+    text-align: center;
+    flex: 1;
 }
