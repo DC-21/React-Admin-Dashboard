@@ -4,17 +4,25 @@ const Permissions = () => {
 
   return (
     <div className="username">
-        <span>Change Username</span>
+        <span>User Roles:</span>
       <div className="user">
         <div className="name">
-          <p>Current Username:</p>
+          <p>User Roles:</p>
+          <span></span>
+        </div>
+        <div className="name">
+          <p>Permissions:</p>
+          <span></span>
+        </div>
+        <div className="name">
+          <p>Role-Based Permissions:</p>
           <span></span>
         </div>
         <div className="btn">
           <button>
-            Change Username
+            Change User Permissions
           </button>
-          <p>Note: You wont be eligible to change name in the next 30 days.</p>
+          <p>Note: You can change and assign new permissions to new admins.</p>
         </div>
       </div>
     </div>
