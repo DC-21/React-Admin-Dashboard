@@ -6,12 +6,25 @@
 .profile{
     padding: 20px;
 }
+
+.links p{
+    color: white;
+}
+
 .links p:hover {
-    background-color: #0046eb;
+    background-color: rgb(211, 198, 198);
     height: 25px;
     border-radius: 4px;
     width: 80%;
 }
+.links a {
+    text-decoration: none;
+  }
+
 .side{
-    background-color: #5681e6;
+    background-color: gray;
+}
+
+.txt{
+    font-weight: bold;
 }

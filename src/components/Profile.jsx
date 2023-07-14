@@ -13,7 +13,7 @@ const Profile = () => {
           height: '380px'
         }}
       >
-        <p style={{ fontSize: '1.3em', padding: '20px' }}>profile settings</p>
+        <p className='txt' style={{ fontSize: '1.2em', padding: '20px', color: 'white' }}>profile settings</p>
         <div className='links' style={{ paddingLeft: '20px' }}>
           <Link to="/username" style={{ cursor: 'pointer' }}>
             <p
