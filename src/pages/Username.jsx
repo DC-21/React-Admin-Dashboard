@@ -1,45 +1,36 @@
-import { useState } from "react";
 import "./main.css";
+import {unstable_HistoryRouter} from 'react-router-dom';
 
 const Username = () => {
-  const [username, setUsername] = useState("Chola Kuboko");
-  const [newUsername, setNewUsername] = useState("");
-
-  const handleChange = (e) => {
-    setNewUsername(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setUsername(newUsername);
-    setNewUsername("");
-  };
 
   return (
     <div className="username">
-        <span>Change Username</span>
+        <span>Personal Details</span>
       <div className="user">
         <div className="name">
-          <p>Current Username:</p>
-          <span>{username}</span>
+          <p>Full Name:</p>
+          <span>Chola Kuboko</span>
         </div>
-        <div className="new">
-          <p>New Username:</p>
-          <form className="fm" onSubmit={handleSubmit}>
-            <input
-              className="in"
-              type="text"
-              placeholder="new username"
-              value={newUsername}
-              onChange={handleChange}
-            />
-          </form>
+        <div className="name">
+          <p>Username:</p>
+          <span>Chola21</span>
+        </div>
+        <div className="name">
+          <p>Phone Number:</p>
+          <span>0979054417</span>
+        </div>
+        <div className="name">
+          <p>Email Address:</p>
+          <span>Cholahkuboko@gmail.com</span>
+        </div>
+        <div className="name">
+          <p>Address:</p>
+          <span>9 miles, Lusaka</span>
         </div>
         <div className="btn">
-          <button onClick={handleSubmit} type="submit">
-            Change Username
+          <button>
+            Change Personal Details
           </button>
-          <p>Note: You wont be eligible to change name in the next 30 days.</p>
         </div>
       </div>
     </div>

@@ -24,7 +24,7 @@ const Profile = () => {
                 paddingTop: '14px'
               }}
             >
-              Username
+              Personal Details
             </p>
           </Link>
           <Link to="/password" style={{ cursor: 'pointer' }}>
