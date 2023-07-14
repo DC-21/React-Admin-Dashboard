@@ -28,7 +28,7 @@ const Username = () => {
         </div>
         <div className="btn">
           <button>
-            Change Personal Details
+            Update Personal Details
           </button>
         </div>
       </div>

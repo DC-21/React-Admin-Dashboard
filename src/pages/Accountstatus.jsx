@@ -3,7 +3,7 @@ import "./main.css";
 const AccountStatus = () => {
   return (
     <div className="username">
-      <span>Change Username</span>
+      <span>Account Status</span>
       <div className="user">
         <div className="name">
           <p>Active Account:</p>
