@@ -3,8 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Profile from './components/Profile'
 import Username from './pages/Username'
 import Password from './pages/Password';
-import Team from './pages/Team';
-import Email from './pages/Email';
+import Permissions from './pages/Permissions';
 import Plan from './pages/Plan';
 import Billing from './pages/Billing';
 import Integrations from './pages/Integrations';
@@ -16,8 +15,7 @@ const App = () => {
       <Routes>
       <Route path="/username" element={<Username />} />
       <Route path="/password" element={<Password />} />
-      <Route path="/team" element={<Team />} />
-      <Route path="/email" element={<Email />} />
+      <Route path="/permissions" element={<Permissions />} />
       <Route path="/plan" element={<Plan />} />
       <Route path="/billing" element={<Billing />} />
       <Route path="/integrations" element={<Integrations />} />

@@ -39,7 +39,7 @@ const Profile = () => {
               Change Password
             </p>
           </Link>
-          <Link to="/team" style={{ cursor: 'pointer' }}>
+          <Link to="/permissions" style={{ cursor: 'pointer' }}>
             <p
               style={{
                 height: '25px',
