@@ -5,7 +5,7 @@ import Username from './pages/Username'
 import Password from './pages/Password';
 import Permissions from './pages/Permissions';
 import Plan from './pages/Plan';
-import Billing from './pages/Billing';
+import Accountstatus from './pages/Accountstatus';
 import Integrations from './pages/Integrations';
 
 const App = () => {
@@ -16,8 +16,8 @@ const App = () => {
       <Route path="/username" element={<Username />} />
       <Route path="/password" element={<Password />} />
       <Route path="/permissions" element={<Permissions />} />
+      <Route path="/Accountstatus" element={<Accountstatus />} />
       <Route path="/plan" element={<Plan />} />
-      <Route path="/billing" element={<Billing />} />
       <Route path="/integrations" element={<Integrations />} />
       </Routes>
     </>

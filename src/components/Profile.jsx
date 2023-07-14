@@ -51,7 +51,7 @@ const Profile = () => {
               Permissions
             </p>
           </Link>
-          <Link to="/email" style={{ cursor: 'pointer' }}>
+          <Link to="/Accountstatus" style={{ cursor: 'pointer' }}>
             <p
               style={{
                 height: '25px',

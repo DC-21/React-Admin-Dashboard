@@ -8,15 +8,15 @@ const Permissions = () => {
       <div className="user">
         <div className="name">
           <p>User Roles:</p>
-          <span></span>
+          <span>Create, Edit and Delete User roles for new Admins</span>
         </div>
         <div className="name">
           <p>Permissions:</p>
-          <span></span>
+          <span>Create User, Edit Product, Delete Order</span>
         </div>
         <div className="name">
           <p>Role-Based Permissions:</p>
-          <span></span>
+          <span>Admin User roles and Admin permissions</span>
         </div>
         <div className="btn">
           <button>
