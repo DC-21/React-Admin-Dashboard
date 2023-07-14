@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.row1{
+    display: flex;
+    width: 500px;
+}
+.row1 p{
+    font-size: large;
+    color: white;
+    padding-bottom: 8px;
+}

@@ -51,7 +51,7 @@ const Profile = () => {
               Permissions
             </p>
           </Link>
-          <Link to="/Accountstatus" style={{ cursor: 'pointer' }}>
+          <Link to="/accountstatus" style={{ cursor: 'pointer' }}>
             <p
               style={{
                 height: '25px',
@@ -63,7 +63,7 @@ const Profile = () => {
               Account Status
             </p>
           </Link>
-          <Link to="/plan" style={{ cursor: 'pointer' }}>
+          <Link to="/activity" style={{ cursor: 'pointer' }}>
             <p
               style={{
                 height: '25px',
