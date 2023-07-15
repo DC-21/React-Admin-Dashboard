@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import './ProfileButton.css';
+import { useState } from 'react';
+import './Pros.css';
 
-const ProfileButton = ({ profileData }) => {
+const Pro = ({ profileData }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -32,4 +32,4 @@ const ProfileButton = ({ profileData }) => {
   );
 };
 
-export default ProfileButton;
+export default Pro;

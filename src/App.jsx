@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileButton from './ProfileButton';
+import Pro from './profile/Pro';
 
 const App = () => {
   const profileData = {
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <h1>My App</h1>
-      <ProfileButton profileData={profileData} />
+      <Pro profileData={profileData} />
     </div>
   );
 };
