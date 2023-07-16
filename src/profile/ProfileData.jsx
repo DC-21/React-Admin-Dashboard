@@ -8,8 +8,8 @@ const ProfileData = () => {
       <div className="image">
         <img src={admin} />
         <div className="name">
-          <p>Name</p>
-          <p>Chola Kuboko</p>
+          <p>Name:</p>
+          <h1>Chola Kuboko</h1>
         </div>
         <p>
           <span></span>Admin
