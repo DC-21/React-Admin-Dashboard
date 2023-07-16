@@ -7,9 +7,8 @@ import './App.css';
 const App = () => {
   return (
     <>
+          <Pro/>
       <div className="main">
-        <Pro profileData={ProfileData} />
-        <ProfileData/>
         <Routes>
           <Route path="/profile/:id" element={<ProfileData />} />
         </Routes>
