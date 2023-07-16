@@ -1,5 +1,6 @@
 import React from 'react';
 import Pro from './profile/Pro';
+
 const App = () => {
   const profileData = {
     name: 'John Doe',
