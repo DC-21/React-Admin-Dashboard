@@ -8,11 +8,6 @@ const App = () => {
   return (
     <>
           <Pro/>
-      <div className="main">
-        <Routes>
-          <Route path="/profile/:id" element={<ProfileData />} />
-        </Routes>
-      </div>
     </>
   );
 };
