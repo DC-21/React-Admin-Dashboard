@@ -1,55 +1,21 @@
-import React, { useState } from "react";
-import { Link } from 'react-router-dom';
-import PropTypes from "prop-types";
-import "./Pros.css";
+import React from 'react'
 
-const Pro = ({ profileData }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
+const Pro = () => {
   return (
-    <div className="main">
-      <div
-        className="profile-button"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <div className="profile-icon">
-          <Link to={`/profile/${profileData.id}`}>
-            <svg
-              viewBox="0 0 512 512"
-              fill="currentColor"
-              height="2em"
-              width="2em"
-            >
-              <path d="M399 384.2c-22.1-38.4-63.6-64.2-111-64.2h-64c-47.4 0-88.9 25.8-111 64.2 35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256zm-256 16c39.8 0 72-32.2 72-72s-32.2-72-72-72-72 32.2-72 72 32.2 72 72 72z" />
-            </svg>
-          </Link>
-        </div>
-        {isHovered && (
-          <div className="profile-popup">
-            <h1>{profileData.name}</h1>
-            <p>{profileData.bio}</p>
-          </div>
-        )}
+    <div className='main'>
+      <div>
+      <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      height="1em"
+      width="1em"
+    >
+      <path d="M12 2A10.13 10.13 0 002 12a10 10 0 004 7.92V20h.1a9.7 9.7 0 0011.8 0h.1v-.08A10 10 0 0022 12 10.13 10.13 0 0012 2zM8.07 18.93A3 3 0 0111 16.57h2a3 3 0 012.93 2.36 7.75 7.75 0 01-7.86 0zm9.54-1.29A5 5 0 0013 14.57h-2a5 5 0 00-4.61 3.07A8 8 0 014 12a8.1 8.1 0 018-8 8.1 8.1 0 018 8 8 8 0 01-2.39 5.64z" />
+      <path d="M12 6a3.91 3.91 0 00-4 4 3.91 3.91 0 004 4 3.91 3.91 0 004-4 3.91 3.91 0 00-4-4zm0 6a1.91 1.91 0 01-2-2 1.91 1.91 0 012-2 1.91 1.91 0 012 2 1.91 1.91 0 01-2 2z" />
+    </svg>
       </div>
     </div>
-  );
-};
+  )
+}
 
-Pro.propTypes = {
-  profileData: PropTypes.shape({
-    profilePic: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    bio: PropTypes.string.isRequired,
-  }).isRequired,
-};
-
-export default Pro;
+export default Pro
