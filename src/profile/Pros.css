@@ -1,8 +1,10 @@
 .profile-button {
   position: relative;
-  display: flex;
+  align-items: center;
+  display: inline-flex;
   justify-content: end;
   padding-right: 20px;
+  padding-top: 20px;
 }
 
 .profile-icon {

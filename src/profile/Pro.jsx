@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import './Pros.css';
 
 const Pro = ({ profileData }) => {
@@ -37,6 +38,14 @@ const Pro = ({ profileData }) => {
       )}
     </div>
   );
+};
+
+Pro.propTypes = {
+  profileData: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    bio: PropTypes.string.isRequired,
+  }).isRequired,
+  profilePictureUrl: PropTypes.string.isRequired,
 };
 
 export default Pro;
