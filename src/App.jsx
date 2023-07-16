@@ -1,18 +1,19 @@
 import React from 'react';
+import { Router, Route, Routes } from 'react-router-dom';
 import Pro from './profile/Pro';
+import ProfileData from './profile/ProfileData';
 import './App.css';
 
 const App = () => {
-  const profileData = {
-    name: 'John DoE',
-    bio: 'Software Developer',
-    profilePic: './profile/admin.jpg',
-  };
-
   return (
-    <div className="main">
-      <Pro profileData={profileData} />
-    </div>
+    <Router>
+      <div className="main">
+        <Route path="/" element={<Pro profileData={ProfileData} />} />
+        <Routes>
+          <Route path="/profile/:id" element={<ProfileData />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
