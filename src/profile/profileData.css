@@ -10,3 +10,6 @@
     height: auto;
     justify-content: center;
 }
+.image img{
+    width: 50px;
+}

@@ -9,6 +9,7 @@ const App = () => {
     <>
       <div className="main">
         <Pro profileData={ProfileData} />
+        <ProfileData/>
         <Routes>
           <Route path="/profile/:id" element={<ProfileData />} />
         </Routes>
