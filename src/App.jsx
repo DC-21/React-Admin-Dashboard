@@ -6,7 +6,7 @@ const App = () => {
   const profileData = {
     name: 'John DoE',
     bio: 'Software Developer',
-    profilePic: '/home/dice/Desktop/Tok/src/profile/admin.jpg', // Replace this with the actual URL of the profile picture
+    profilePic: '/home/dice/Desktop/Tok/src/profile/admin.jpg',
   };
 
   return (

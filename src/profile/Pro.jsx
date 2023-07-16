@@ -32,7 +32,7 @@ const Pro = ({ profileData }) => {
         </div>
         {isHovered && (
           <div className="profile-popup">
-            <h3>{profileData.name}</h3>
+            <h1>{profileData.name}</h1>
             <p>{profileData.bio}</p>
           </div>
         )}

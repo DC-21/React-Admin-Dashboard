@@ -34,5 +34,11 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
-
-/* Add more styles for the profile pop-up */
+.profile-popup h1{
+  text-align: center;
+  font-size: 15px;
+}
+.profile-popup p{
+  text-align: center;
+  font-size: 15px;
+}
