@@ -6,7 +6,7 @@ const App = () => {
   const profileData = {
     name: 'John DoE',
     bio: 'Software Developer',
-    profilePic: '/home/dice/Desktop/Tok/src/profile/admin.jpg',
+    profilePic: './profile/admin.jpg',
   };
 
   return (
