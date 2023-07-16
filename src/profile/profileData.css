@@ -13,11 +13,10 @@
     background-color: rgb(207, 201, 201);
 }
 .image img{
-    width: 150px;
-    align-items: center;
-    padding-top: 30px;
-    border-radius: 50%;
-
+    width: 40%;
+  height: 40%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .image h1{
     font-size: 16px;
