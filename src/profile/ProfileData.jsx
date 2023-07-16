@@ -5,8 +5,10 @@ import admin from './admin.jpg';
 const ProfileData = () => {
   return (
     <div className='container'>
-      <div className='image'>
+      <div className='centered-content'>
+        <div className='image'>
         <img src={admin}/>
+        </div>
         <h1>Chola Kuboko</h1>
         <p>Admin</p>
         <p>cholahkuboko@gmail.com</p>
