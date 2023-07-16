@@ -1,7 +1,7 @@
 .main{
   justify-content: end;
   display: flex;
-  padding-right: 40px;
+  padding-right: 60px;
   padding-top: 20px;
 }
 
@@ -26,10 +26,9 @@
 .profile-popup {
   position: absolute;
   top: 60px;
-  left: -50px;
-  width: 150px;
+  left: -75px;
+  width: 180px;
   padding: 10px;
-  padding-left: 15%;
   background-color: #f1f1f1;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
