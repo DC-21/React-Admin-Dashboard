@@ -1,5 +1,6 @@
 import React from 'react';
 import Pro from './profile/Pro';
+import './App.css';
 
 const App = () => {
   const profileData = {
@@ -8,7 +9,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className='main'>
       <h1>My App</h1>
       <Pro profileData={profileData} />
     </div>
