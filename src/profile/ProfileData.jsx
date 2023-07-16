@@ -1,14 +1,12 @@
-import React from 'react'
-import './profileData.css';
-import admin from './admin.jpg';
+import React from "react";
+import "./profileData.css";
+import admin from "./admin.jpg";
 
 const ProfileData = () => {
   return (
-    <div className='container'>
-      <div className='centered-content'>
-        <div className='image'>
-        <img src={admin}/>
-        </div>
+    <div className="container">
+      <div className="centered-content">
+        <img src={admin} />
         <h1>Chola Kuboko</h1>
         <p>Admin</p>
         <p>cholahkuboko@gmail.com</p>
@@ -16,7 +14,7 @@ const ProfileData = () => {
         <p>9 miles, Lusaka</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProfileData
+export default ProfileData;
