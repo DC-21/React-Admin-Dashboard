@@ -9,6 +9,9 @@ const ProfileData = () => {
         <img src={admin}/>
         <h1>Chola Kuboko</h1>
         <p>Admin</p>
+        <p>cholahkuboko@gmail.com</p>
+        <p>0979054417</p>
+        <p>9 miles, Lusaka</p>
       </div>
     </div>
   )
